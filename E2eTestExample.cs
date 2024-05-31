@@ -13,9 +13,12 @@ namespace TesteSelenium.Tests
         private IWebDriver _driver;
 
         public SumFormTest()
-        {            
+        {          
             new DriverManager().SetUpDriver(new ChromeConfig());
-            _driver = new ChromeDriver();
+
+            var chromeOptions = new ChromeOptions();
+            chromeOptions.AddArgument("--headless");
+            _driver = new ChromeDriver(chromeOptions);
         }
 
         [Theory]
