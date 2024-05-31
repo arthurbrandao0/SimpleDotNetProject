@@ -1,0 +1,21 @@
+# Ignore build output files
+bin/
+obj/
+
+# Ignore NuGet pacgikages
+*.nupkg
+
+# Ignore Visual Studio files
+.vs/
+*.suo
+*.user
+*.sln.docstates
+
+# Ignore JetBrains Rider files
+.idea/
+
+# Ignore macOS specific files
+.DS_Store
+
+# Ignore Windows specific files
+Thumbs.db
