@@ -1,0 +1,97 @@
+# .NET Core / .NET Standard
+*.dll
+*.exe
+*.pdb
+*.dll.config
+*.exe.config
+*.deps.json
+*.runtimeconfig.json
+
+# Visual Studio
+.vs/
+/.vscode/
+*.sln
+*.suo
+*.user
+*.userprefs
+*.vspscc
+*.vssscc
+/*.bak
+/*.cache
+/*.csproj.user
+/*.docstates
+/*.dotCover
+/*.resharper
+/*.sln.docstates
+
+# NuGet
+/packages/
+*.nupkg
+*.paket.*
+paket-files/
+
+# Build results
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+
+# MSTest
+TestResults/
+
+# Unity
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+
+# Rider
+.idea/
+*.sln.iml
+
+# Resharper
+/_ReSharper.*/
+
+# NCrunch
+_NCrunch_*
+.*crunch*.local.xml
+
+# Installshield output folder
+[Ee]xpress/
+
+# DocFX
+docs/_site/
+
+# Build worker artifacts
+**/node_modules/
+**/bower_components/
+**/dist/
+**/out/
+**/build/
+
+# Symbol files
+*.sw?
+*.snk
+*.pfx
+*.key
+*.cer
+
+# Other
+*.Cache
+ClientBin/
+[Ss]tyle[Cc]op.*
+~$*
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+*.pfx
+*.publishsettings
+orleans.codegen.cs
